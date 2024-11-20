@@ -1,0 +1,17 @@
+labels:
+  - cohesion
+  - syntax
+  - vocabulary
+  - phraseology
+  - grammar
+  - conventions
+
+callbacks:
+  model_summary:
+    max_depth: 1
+  swa:
+    use: false
+    lrs: 1e-3
+  logging_interval: "step"
+
+seed: 42
