@@ -1,0 +1,7 @@
+[core]
+    autostage = true
+    remote = myremote
+['remote "cloud_remote"']
+    url = gdrive://1_X9KhOCjjSYWDZp8k0QfGu0ArQLkpyb2
+['remote "myremote"']
+    url = /mnt/d/sberML/SBT_ML_Ops_HW/second_hw/dvc_storage/

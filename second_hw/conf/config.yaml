@@ -1,0 +1,5 @@
+defaults:
+  - model: deberta
+  - log: test_launch
+  - other: other
+  - data: csv_file

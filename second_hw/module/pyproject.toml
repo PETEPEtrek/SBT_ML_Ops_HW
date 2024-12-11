@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "rmse_cblas"
+version = "0.1.0"
+description = "Library for finding rmse via cblas"
+authors = ["Peter Senatorov <senatoroff.p@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+

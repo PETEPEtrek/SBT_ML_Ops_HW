@@ -1,0 +1,14 @@
+artifacts:
+  experiment_name: example-experiment
+  experiment_folder: "./.logs/my-csv-logs"
+  experiment_tracking_uri: "file:./.logs/my-mlflow-logs"
+  experiment_tensor_folder: "./.logs/my-tb-logs"
+  experiment_wandb_project: "mlops-logging-demo"
+  checkpoint:
+    use: false
+    dirpath: checkpoints
+    filename: "{epoch:02d}-{val_loss:.4f}"
+    monitor: val_loss
+    save_top_k: 3
+    every_n_train_steps:
+    every_n_epochs: 1
